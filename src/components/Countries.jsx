@@ -47,7 +47,7 @@ const Countries = () => {
       </button>)}
 
       {/* List country from API */}
-      <ul>
+      <ul className="list-country">
         {data
           .filter((country) => country.region.includes(selectedRadio))
           .slice(0, rangeValue)

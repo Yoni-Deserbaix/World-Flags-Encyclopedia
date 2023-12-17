@@ -66,13 +66,13 @@
     
   @media screen and (max-width: 460px) {
     .card {
-      height: 60px;
-      width: 90px;
+      height: 50px;
+      width: 80px;
       margin: 10px;
     }
     .card > img {
-      height: 60px;
-      width: 90px;
+      height: 50px;
+      width: 80px;
       object-fit: cover;
       border-radius: 10px;
     }
@@ -81,6 +81,6 @@
     }
     
     .infos > p {
-      font-size: 0.7rem;
+      font-size: 0.6rem;
     }
   }
