@@ -9,7 +9,6 @@ This project is a web application developed with React that allows users to expl
 - **Flag Visualization**: Displays flags of countries along with their respective information.
 - **Comprehensive Country Details**: Provides detailed information about each country on hover, including their name, capital, and population.
 - **Continent Filtering**: Allows users to filter countries by continent (Africa, America, Asia, Europe, Oceania).
-- **Enhanced Interactivity**: Utilizes features such as hooks, iterative methods like .map, .slice, and .filter for dynamic interactivity.
 - **Quick Navigation**: Access the "About" page and return to the homepage using the navigation bar.
 
 ## View Project 👀
