@@ -1,13 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(25, 25, 25);
+  color: whitesmoke;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.copyright {
+  position: absolute;
+  top: 10px; /* Ajustez la valeur de top selon votre mise en page */
+  right: 10px; /* Ajustez la valeur de right selon votre mise en page */
+  font-size: 12px;
+  color: #888; /* Couleur du texte pour le copyright */
+}
+.para {
+  text-align: center;
+  justify-content: center;
+  margin: 30px auto;
+  max-width: 700px;
+  font-size: 20px;
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  margin: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .para {
+    text-align: center;
+    justify-content: center;
+    margin: 30px auto;
+    max-width: 300px;
+    font-size: 20px;
+  }
+  .copyright {
+   font-size: 7px;
+  }
 }

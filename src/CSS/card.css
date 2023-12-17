@@ -1,0 +1,86 @@
+.card-container {
+    margin-left: 5% auto;
+    margin-right: 5% auto;
+  }
+  
+  .card {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
+    position: relative;
+      height: 100px;
+      width: 160px;
+      border-radius: 4px;
+      list-style: none;
+      transition: 0.3s;
+      text-align: center;
+      align-items: center;
+      float: inline-start;
+      margin: 20px ;
+      flex-wrap: wrap;
+      display: flex;
+      
+      &:hover {
+        transform: scale(1.2);
+        z-index: 2;
+      }
+    
+      &:hover .infos {
+        opacity: 1;
+        transform: scaleY(1);
+      }
+  }
+  
+  .infos > h2 {
+    font-size: 1rem;
+    background: transparent;
+  }
+  
+  .infos > p {
+    font-size: 0.8rem;
+    background: transparent;
+    font-weight: bold;
+  }
+  
+  .infos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+  }
+  
+  .card > img {
+    height: 100px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+    
+  @media screen and (max-width: 460px) {
+    .card {
+      height: 60px;
+      width: 90px;
+      margin: 10px;
+    }
+    .card > img {
+      height: 60px;
+      width: 90px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .infos > h2 {
+      font-size: 0.7rem;
+    }
+    
+    .infos > p {
+      font-size: 0.7rem;
+    }
+  }
