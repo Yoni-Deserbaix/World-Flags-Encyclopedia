@@ -13,7 +13,7 @@ This project is a web application developed with React that allows users to expl
 
 ## View Project 👀
 
-Check out the project online 👉 [here](https://yoni-deserbaix.github.io/react-world-v2/)
+Check out the project online 👉 [here]( https://yoni-deserbaix.github.io/World-Flags-Encyclopedia/)
 
 ## Technologies Used 🛠️
 
@@ -27,13 +27,13 @@ Check out the project online 👉 [here](https://yoni-deserbaix.github.io/react-
 1. Clone the GitHub repository to your local machine <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="15" alt="git logo" />:
 
     ```bash
-    git clone https://github.com/Yoni-Deserbaix/react-world-v2.git
+    git clone https://github.com/Yoni-Deserbaix/World-Flags-Encyclopedia.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd react-world-v2
+    cd World-Flags-Encyclopedia
     ```
 
 3. Install the dependencies:
