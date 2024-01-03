@@ -7,7 +7,6 @@ const Card = ({ country }) => {
   }
 
   return (
-    <div className="card-container">
       <li className="card">
         {/* Displaying the country's flag */}
         <img src={country.flags.svg} alt={"flag " + country.name.common} />
@@ -19,7 +18,6 @@ const Card = ({ country }) => {
           <p>Pop.{country.population.toLocaleString()}</p>
         </div>
       </li>
-    </div>
   );
 };
 

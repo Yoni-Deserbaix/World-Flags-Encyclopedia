@@ -1,20 +1,18 @@
 .countries {
-  text-align: center;
-  margin-left: 8%;
-  margin-right: 7%;
+     text-align: center;
 }
 
 .radio-container {
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 40px;
   border-radius: 5px;
   padding: 14px;
   color: white;
   font-size: 20px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
-}
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
 
+}
 
 .slider {
   appearance: none;
@@ -42,6 +40,7 @@ label {
   margin-left: 10px;
   cursor: pointer;
 }
+
 
 label:hover {
   color: #61dafb;
@@ -73,11 +72,13 @@ button {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
 }
 
- .radio-container {
+ul {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   list-style: none;
 }
+
 
 @media screen and (max-width: 460px) {
   .countries .radio-container {
