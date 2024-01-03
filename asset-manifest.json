@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/World-Flags-Encyclopedia/static/css/main.fa0f133a.css",
-    "main.js": "/World-Flags-Encyclopedia/static/js/main.f96455a1.js",
+    "main.css": "/World-Flags-Encyclopedia/static/css/main.d3601a31.css",
+    "main.js": "/World-Flags-Encyclopedia/static/js/main.19a8a704.js",
     "index.html": "/World-Flags-Encyclopedia/index.html",
-    "main.fa0f133a.css.map": "/World-Flags-Encyclopedia/static/css/main.fa0f133a.css.map",
-    "main.f96455a1.js.map": "/World-Flags-Encyclopedia/static/js/main.f96455a1.js.map"
+    "main.d3601a31.css.map": "/World-Flags-Encyclopedia/static/css/main.d3601a31.css.map",
+    "main.19a8a704.js.map": "/World-Flags-Encyclopedia/static/js/main.19a8a704.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa0f133a.css",
-    "static/js/main.f96455a1.js"
+    "static/css/main.d3601a31.css",
+    "static/js/main.19a8a704.js"
   ]
 }
